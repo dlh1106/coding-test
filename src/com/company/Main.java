@@ -81,11 +81,18 @@ public class Main {
 //        String[] strings = {"CCBDE", "AAADE", "AAABF", "CCBBF"};
 //        kakao3.solution(4,5,strings);
 
-        Kakao4 kakao4 = new Kakao4();
-        kakao4.solution("FRANCE","french");
-        kakao4.solution("handshake","shake hands");
-        kakao4.solution("aa1+aa2","AAAA12");
-        kakao4.solution("E=M*C^2","e=m*c^2");
+//        Kakao4 kakao4 = new Kakao4();
+//        kakao4.solution("FRANCE","french");
+//        kakao4.solution("handshake","shake hands");
+//        kakao4.solution("aa1+aa2","AAAA12");
+//        kakao4.solution("E=M*C^2","e=m*c^2");
+//
+//        Code1 code1 = new Code1();
+//        code1.solution(10400);
+        Solution10 solution10 = new Solution10();
+        String[] strs = {"Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
+        solution10.solution(strs);
+
     }
 
 }
