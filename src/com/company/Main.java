@@ -1,9 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -89,9 +85,9 @@ public class Main {
 //
 //        Code1 code1 = new Code1();
 //        code1.solution(10400);
-        Solution10 solution10 = new Solution10();
+        Kakao6 kakao6 = new Kakao6();
         String[] strs = {"Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
-        solution10.solution(strs);
+        kakao6.solution(strs);
 
     }
 

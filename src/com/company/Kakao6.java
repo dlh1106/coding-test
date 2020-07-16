@@ -5,7 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Solution10 {
+public class Kakao6 {
+    //오픈 채팅방
     public String[] solution(String[] record) {
         List<String> list = new ArrayList();
         Map<String, Object> user = new HashMap<>();
